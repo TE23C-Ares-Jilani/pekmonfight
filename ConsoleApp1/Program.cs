@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int Herohp = 100;
+int villainhp = 100;
+
+string HeroName = "Starelord";
+string VillainName = "BenZekri";
+
+random generator = new random();
+
+
