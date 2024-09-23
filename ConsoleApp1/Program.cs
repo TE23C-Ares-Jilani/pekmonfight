@@ -1,21 +1,30 @@
-﻿Console.WriteLine("Write your name:");
-string name = Console.ReadLine();
+﻿Console.WriteLine("Welcome to pekmon fight!");
+Console.WriteLine("Write your pekmon:");
+string HeroName = Console.ReadLine();
 
-while (name == "")
+while (HeroName == "")
 {
     Console.Clear();
-    Console.WriteLine("write a name dickhead!");
-    name = Console.ReadLine();
+    Console.WriteLine("write a Pekmon dickhead!");
+    HeroName = Console.ReadLine();
 }
 Console.Clear();
-Console.WriteLine($"sup {name}!");
-Console.ReadLine();
+Console.WriteLine($"U use {HeroName}!");
+Console.ReadKey();
+// ----------------------------------------------------------
+Console.WriteLine("Write enemy pekmon:");
+string VillainName = Console.ReadLine();
+
+while (VillainName == "")
+{
+    Console.Clear();
+    Console.WriteLine("write a Pekmon dickhead!");
+    VillainName = Console.ReadLine();
+}
 
 int HeroHp = 100;
 int VillainHp = 100;
 
-string HeroName = $"{name}";
-string VillainName = "Jonkler";
 
 Random generator = new Random();
 
